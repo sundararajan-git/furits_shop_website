@@ -1,0 +1,84 @@
+.gridfurits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.furits {
+  margin-top: 5%;
+}
+.furits section {
+  box-shadow: 0px 0px 10px 10px rgb(227, 225, 225);
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
+.furits section img:hover {
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+}
+.furits section img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.furits h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+}
+#color {
+  background-color: black;
+}
+.furits section button {
+  background-color: rgb(255, 0, 121);
+  color: white;
+  width: 50px;
+  height: max-content;
+}
+#close {
+  margin: 0px !important;
+}
+.modal {
+  color: rgb(255, 0, 121);
+}
+.btnclose {
+  width: max-content;
+  padding: 5px;
+}
+.furits section button:hover {
+  background-color: black;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 450px) {
+  .gridfurits {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+  }
+  .row-1,
+  .row-2 {
+    margin: 0;
+  }
+  .row-2 {
+    gap: 30px;
+  }
+  .Addbtn {
+    align-self: flex-end;
+  }
+}
+@media all and (max-width: 400px) {
+  .gridfurits {
+    font-size: 13px;
+  }
+}

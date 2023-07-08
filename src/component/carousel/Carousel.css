@@ -1,0 +1,20 @@
+.d-block {
+  height: 50vh;
+  object-fit: cover;
+}
+.img-1,
+.img-4 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.carousel-caption h4 {
+  color: black;
+  position: relative;
+  top: -20vh;
+  left: -45%;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.carousel {
+  margin-top: -20px;
+}

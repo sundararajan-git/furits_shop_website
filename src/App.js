@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+import Navbar from "./component/navbar/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Home from "./screens/home/Home";
+import Cart from "./screens/cart/Cart";
+import Signup from "./screens/sign up/Signup";
+import Signin from "./screens/sign in/Signin";
+import { useAuthContext } from "./hook/useAuthContext";
+import Profile from "./screens/profile/Profile";
 
-function App() {
+const App = () => {
+  const { user, isAuthReady } = useAuthContext();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <Navbar />
       </header>
+      {isAuthReady && (
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/signin" element={<Signin />} />
+        </Routes>
+      )}
     </div>
   );
-}
+};
 
 export default App;
