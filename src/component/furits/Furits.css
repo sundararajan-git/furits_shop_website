@@ -45,6 +45,7 @@
 }
 .modal {
   color: rgb(255, 0, 121);
+  padding: 5%;
 }
 .btnclose {
   width: max-content;
