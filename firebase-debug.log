@@ -1,0 +1,33 @@
+[debug] [2023-07-08T05:02:27.580Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T05:02:27.582Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sunda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-07-08T05:02:27.583Z] CLI Version:   12.4.3
+[debug] [2023-07-08T05:02:27.583Z] Platform:      win32
+[debug] [2023-07-08T05:02:27.584Z] Node Version:  v18.16.0
+[debug] [2023-07-08T05:02:27.585Z] Time:          Sat Jul 08 2023 10:32:27 GMT+0530 (India Standard Time)
+[debug] [2023-07-08T05:02:27.585Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-08T05:02:27.727Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-08T05:02:27.728Z] > authorizing via signed-in user (sundararajanselvarasu@gmail.com)
+[debug] [2023-07-08T05:02:27.728Z] [iam] checking project furits-shop-website for permissions ["firebase.projects.get"]
+[debug] [2023-07-08T05:02:27.731Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/furits-shop-website:testIamPermissions [none]
+[debug] [2023-07-08T05:02:27.732Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/furits-shop-website:testIamPermissions x-goog-quota-user=projects/furits-shop-website
+[debug] [2023-07-08T05:02:27.732Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/furits-shop-website:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-07-08T05:02:29.620Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/furits-shop-website:testIamPermissions 200
+[debug] [2023-07-08T05:02:29.621Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/furits-shop-website:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-07-08T05:02:29.623Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website [none]
+[debug] [2023-07-08T05:02:30.557Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website 200
+[debug] [2023-07-08T05:02:30.558Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website {"projectId":"furits-shop-website","projectNumber":"663527595750","displayName":"furits-shop-website","name":"projects/furits-shop-website","resources":{"hostingSite":"furits-shop-website"},"state":"ACTIVE","etag":"1_ae482923-1021-451d-90b3-b8306ee30686"}
+[info] 
+[info] === Serving from 'C:\Users\sunda\OneDrive\Desktop\MY PROJECTS\Furits_Shop_Website\furits-shop-website'...
+[info] 
+[debug] [2023-07-08T05:02:30.572Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/furits-shop-website/sites 
+[debug] [2023-07-08T05:02:31.966Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/furits-shop-website/sites 200
+[debug] [2023-07-08T05:02:31.966Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/furits-shop-website/sites {"sites":[{"name":"projects/furits-shop-website/sites/furits-shop-website","defaultUrl":"https://furits-shop-website.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-08T05:02:31.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website/webApps/-/config [none]
+[debug] [2023-07-08T05:02:33.707Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website/webApps/-/config 200
+[debug] [2023-07-08T05:02:33.707Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website/webApps/-/config {"projectId":"furits-shop-website","appId":"1:663527595750:web:105708f6cdbe6e38c52527","storageBucket":"furits-shop-website.appspot.com","apiKey":"AIzaSyCViylTNzlOnNimRXEIkR4zf2jYaohnUcw","authDomain":"furits-shop-website.firebaseapp.com","messagingSenderId":"663527595750"}
+[debug] [2023-07-08T05:02:33.719Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website [none]
+[debug] [2023-07-08T05:02:34.318Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website 200
+[debug] [2023-07-08T05:02:34.318Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/furits-shop-website {"projectId":"furits-shop-website","projectNumber":"663527595750","displayName":"furits-shop-website","name":"projects/furits-shop-website","resources":{"hostingSite":"furits-shop-website"},"state":"ACTIVE","etag":"1_ae482923-1021-451d-90b3-b8306ee30686"}
+[info] i  hosting[furits-shop-website]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[furits-shop-website]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
