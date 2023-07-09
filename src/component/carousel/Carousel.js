@@ -45,7 +45,7 @@ const Carousel = () => {
           <img
             src="https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="d-block w-100 img-1"
-            alt="image-1"
+            alt="i-1"
           />
           <div className="carousel-caption d-none d-md-block">
             <h4>Eat fresh, stay healthy</h4>
@@ -55,7 +55,7 @@ const Carousel = () => {
           <img
             src="https://images.pexels.com/photos/36736/fruits-strawberries-fruit-red.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="d-block w-100"
-            alt="image-2"
+            alt="i-2"
           />
           <div className="carousel-caption d-none d-md-block">
             <h4>100 % Nature </h4>
@@ -65,7 +65,7 @@ const Carousel = () => {
           <img
             src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="d-block w-100"
-            alt="imag-3"
+            alt="i-3"
           />
           <div className="carousel-caption d-none d-md-block">
             <h4>Freshness </h4>
@@ -75,7 +75,7 @@ const Carousel = () => {
           <img
             src="https://images.pexels.com/photos/4032971/pexels-photo-4032971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             className="d-block w-100 img-4"
-            alt="imag-4"
+            alt="i-4"
           />
           <div className="carousel-caption d-none d-md-block">
             <h4>Live long</h4>
